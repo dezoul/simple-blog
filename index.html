@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<h2>
+    All post
+</h2>
+
+{% for post in site.posts %}
+    <a href="{{post.url}}">{{post.title}}</a>
+{% endfor %}
